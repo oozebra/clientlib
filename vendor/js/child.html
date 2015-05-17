@@ -1,0 +1,30 @@
+ <div id="slot2">
+     <div id="profileimg">
+        <br />
+        <img src="image/{{data.pic}}" alt="kid's profile pic" />
+     </div>
+     <div id="profileInfo">
+         First Name: <b>{{data.firstname}}</b>
+         </br>
+         Last Name: <b>{{data.lastname}}</b>
+         </br>
+         Address: <b>{{data.address}}</b>
+         </br>
+         Parent's Info: <b></b>
+         </br>
+         &nbsp;&nbsp; First Name: <b>{{data.parent.info.fname}}</b>
+         </br>
+         &nbsp;&nbsp; Last Name: <b>{{data.parent.info.lname}}</b>
+         </br>        
+         Contact Details: <b>{{data.parent.info.tel}}</b>
+         </br>
+         Email Address: <b>{{data.parent.info.email}}</b>
+         </br>
+         Ethnicity: <b>{{data.ethnicity}}</b>
+         </br>
+         Age: <b>{{data.age}}</b>
+         </br>
+         Comments: <b>{{data.comments}}</b>
+         
+    </div>
+</div>

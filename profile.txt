@@ -1,0 +1,143 @@
+[
+    {
+        "pic" : "kid1.jpg",
+        "firstname" : "Lily",
+        "lastname" : "Johnson",
+        "address" : "#405 Wolly Drive, Santa Flora",
+        "parent" : {
+            "info" : 
+            
+                {"fname" : "Jenny", "lname" : "Johnson", "tel" : "1868-665-2988", "email" : "j.jenny@yahoo.com"}
+            
+        },
+        "ethnicity" : "American",
+        "age" : "5 months",
+        "comments" : "Very attentive and listens well"
+    },
+    {
+        "pic" : "kid2.jpg",
+        "firstname" : "Lee",
+        "lastname" : "Xain",
+        "address" : "#22 Good Lane, Marabella",
+        "parent" : {
+            "info" : 
+                {"fname" : "Zuko","lname" : "Xain","tel" : "1868-652-4938","email" : "x.zuko@gmail.com"}
+            
+        },
+        "ethnicity" : "Chinese",
+        "age" : "6 years old",
+        "comments" : "Smart, Brave and Funny"
+    },
+    {
+        "pic" : "kid3.jpg",
+        "firstname" : "Sally",
+        "lastname" : "Lee",
+        "address" : "#126 Melborne Lane, Siparia",
+        "parent" : {
+            "info" : 
+                {"fname" : "Jane","lname" : "Lee","tel" : "1868-662-4031","email" : "j.lee@gmail.com"}
+            
+        },
+        "ethnicity" : "Chinese",
+        "age" : "7 years old",
+        "comments" : "Shy, Outgoing"
+    },
+    {
+        "pic" : "kid4.jpg",
+        "firstname" : "Anna",
+        "lastname" : "Kenson",
+        "address" : "3A 2nd Avenue, Sweeny Street, Couva",
+        "parent" : {
+            "info" : 
+                {"fname" : "Jenifer","lname" : "Kenson","tel" : "1868-682-5539","email" : "j.kenson@hotmail.com"}
+            
+        },
+        "ethnicity" : "American",
+        "age" : "4 months",
+        "comments" : "Very Curious"
+    },
+    {
+        "pic" : "kid5.jpg",
+        "firstname" : "Brandon",
+        "lastname" : "Kale",
+        "address" : "#45 Aripita Avenue, Port of Spain",
+        "parent" : {
+            "info" : 
+                {"fname" : "Tess","lname" : "Kale","tel" : "1868-644-1234","email" : "t.kale@yahoo.com"}
+            
+        },
+        "ethnicity" : "American",
+        "age" : "12 years old",
+        "comments" : "Confident"
+    },
+    {
+        "pic" : "kid6.jpg",
+        "firstname" : "Hailey",
+        "lastname" : "Denov",
+        "address" : "#29 Chancery Lane, Port of Spain",
+        "parent" : {
+            "info" : 
+                {"fname" : "David","lname" : "Denov","tel" : "1868-687-6534","email" : "d.denov@hotmail.com"}
+            
+        },
+        "ethnicity" : "Italian",
+        "age" : "7 years old",
+        "comments" : "Very outgoing"
+    },
+    {
+        "pic" : "kid7.jpg",
+        "firstname" : "Tia",
+        "lastname" : "James",
+        "address" : "2B Apartment Complex, Chaguramas",
+        "parent" : {
+            "info" : 
+                {"fname" : "George","lname" : "James","tel" : "1868-655-7698","email" : "g.james@hotmail.com"}
+            
+        },
+        "ethnicity" : "Italian",
+        "age" : "7 years old",
+        "comments" : "Very outgoing"
+    },
+    {
+        "pic" : "kid8.jpg",
+        "firstname" : "Dwane",
+        "lastname" : "Leo",
+        "address" : "#456 Pettie Road, Maraval",
+        "parent" : {
+            "info" : 
+                {"fname" : "Harry","lname" : "Leo","tel" : "1868-681-0987","email" : "d.denov@hotmail.com"}
+            
+        },
+        "ethnicity" : "American",
+        "age" : "9 years old",
+        "comments" : "Artistic"
+    },
+    {
+        "pic" : "kid9.jpg",
+        "firstname" : "Stephen",
+        "lastname" : "Renne",
+        "address" : "#8 Tracy Drive, Arima",
+        "parent" : {
+            "info" : 
+                {"fname" : "Leah","lname" : "Renna","tel" : "1868-612-5289","email" : "l.renna@gmail.com"}
+            
+        },
+        "ethnicity" : "Trinidadian",
+        "age" : "13 years old",
+        "comments" : "Very smart"
+    },
+    {
+        "pic" : "kid10.jpg",
+        "firstname" : "Leona",
+        "lastname" : "Ferris",
+        "address" : "9A Apartment Complex, Mayaro",
+        "parent" : {
+            "info" : 
+                {"fname" : "Fiona","lname" : "Ferris","tel" : "1868-611-4091","email" : "f.ferris@hotmail.com"}
+            
+        },
+        "ethnicity" : "Italian",
+        "age" : "9 years old",
+        "comments" : "Playful, outgoing and brave"
+    }
+]

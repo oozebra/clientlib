@@ -1,0 +1,156 @@
+body{
+    color: white;
+    font-family: Century Gothic, Georgia, Arial;
+}
+
+a {
+    color:white; 
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+/*    background-color: white;*/
+    color: #373737;
+}
+
+#logo{
+    max-width:60%;
+    max-height: 50px;
+    margin-top: 30px;
+}
+
+#header{
+    margin-left:2.5%;
+    max-width:95%;
+    height: 100px;
+}
+
+.navi{
+    float: right;
+    text-align: center;
+    width:10%;
+    height: 100px;
+    background-color: #09BC8A;
+}
+
+/*
+div.navi:hover{
+    background-color: red;
+}
+*/
+
+.naviText{
+    margin-top: 26%;
+    font-size: 1vw;
+}
+
+#headline{
+    max-width:95%;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+}
+
+#headline2{
+    max-width: 50%;
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #373737;
+    text-align: center;
+    font-size: 2vw;
+    
+}
+
+#about{
+    width:70%;
+    height:300px;
+/*    border: 1px solid red;*/
+    margin-left:2.5%;
+/*    margin-top: 10px;*/
+    color:#373737;
+    float: left;
+}
+
+#adv{
+    width:25%;
+    height:300px;
+/*    border: 1px solid blue;*/
+    margin-left:72.5%;
+    margin-right:2.5%;
+/*    margin-top: 10px;*/
+    color:#373737;
+    text-align: center;
+}
+
+#buttons{
+    max-width:95%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+/*    display: none;*/
+/*    background-color: #2A2B2E; #4A4238*/
+}
+
+#middlebtn{
+    width:25%;
+    height:300px;
+    border: 1px solid blue;
+    margin-left:72%;
+    margin-right:2.5%;
+    margin-top: 10px;
+    color:#373737;
+    text-align: center;
+    float: left;
+}
+
+
+.button{
+    width: 45%;
+    height: 350px;
+    margin-top: 3%;
+    float: left;
+    margin-right: 5%;
+    background-color: #09BC8A;
+    font-size: 1vw;
+}
+
+.btnIcon{
+    max-width:70%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#prices{
+    width:99%;
+    height:290px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pBtn{
+    width:40%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#footer{
+    max-width:95%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+}
+
+/*#profiles{
+    display: none;
+}*/

@@ -1,0 +1,328 @@
+body{
+    color: white;
+    font-family: 'Lato',Calibri,Century Gothic,Arial,sans-serif;
+    height: 90vh;
+    margin: 0;
+}
+
+a {
+    color:white; 
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+/*    background-color: white;*/
+    color: #373737;
+}
+
+#slot{
+    width:98%;
+    min-height: 10vh;
+    height: auto;
+    padding: 8px;
+    font-size: 2vh;
+/*    border-bottom: 1px solid grey;*/
+}
+#slot:hover{
+    font-size: 2.5vh;
+    cursor:pointer;
+    -webkit-transition: font-size 1s ease;
+	-moz-transition: font-size 1s ease;
+	-ms-transition: font-size 1s ease;
+	-o-transition: font-size 1s ease;
+	transition: font-size 1s ease;
+}
+#slot2{
+    width:98%;
+    min-width: 50vw;
+    height: 250px;
+    font-size: 1em;
+/*    border-bottom: 1px solid grey;*/
+}
+#logo{
+    max-width:60%;
+    max-height: 50px;
+    margin-top: 30px;
+    position: relative;
+    margin: 1px;
+}
+
+#header{
+    margin-left:2.5%;
+    max-width:95%;
+    height: 10vh;
+}
+
+.navi{
+    float: right;
+    text-align: center;
+    width:10%;
+    height: 10vh;
+    background-color: #09BC8A;
+}
+.navi2{
+    float: right;
+    text-align: center;
+    width:10%;
+    height: 64px;
+    background-color: #09BC8A;
+}
+
+#search{
+    width:27%;
+    height: 40vh;
+    float: left;
+    overflow: auto;
+    color: white;
+    margin-left: 1%
+}
+.searchArea{
+    max-width: 100%;
+    background-color: #09BC8A;
+    font-weight: bolder;
+    padding:10px;
+}
+.searchAreaInput{
+    width: 94%;
+    border: 1px solid #373737;
+}
+
+#profileDiv{
+    width:68%;
+    height: 40vh;
+    float: left;
+    border: 3px solid #09BC8A;
+    overflow: auto;
+}
+
+.naviText{
+    margin-top: 26%;
+    font-size: 1vw;
+    color: white;
+    position: relative;
+}
+
+.naviText2{
+    margin-top: 20%;
+    font-size: 1vw;
+    color: white;
+}
+
+#headline{
+    max-width:95%;
+    height: 23vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+}
+
+#headline2{
+    max-width: 50%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #373737;
+    text-align: center;
+    font-size: 3vh;
+    
+}
+/* commercials display box */
+#about{
+    width:67%;
+    min-width: 400px;
+    height:50vh;
+/*    border: 1px solid red;*/
+    margin-left:2.5%;
+    color:#373737;
+    float: left;
+    overflow: auto;
+}
+.aboutInfo{
+    max-width: 44%;
+    width: auto;
+    float: left;
+    text-align: justify;
+    padding: 25px;
+    height: auto;
+}
+
+#adv{
+    width:27.5%;
+    height:50vh;
+/*    border: 1px solid blue;*/
+    margin-left:70%;
+    margin-right:2.5%;
+    color:#373737;
+    text-align: center;
+}
+#adv2{
+    width:27.5%;
+    height:50vh;
+    margin-left:70%;
+    margin-right:2.5%;
+    color:#373737;
+    text-align: center;
+    background-color: #09BC8A;
+    cursor: pointer;
+/*    overflow: auto;*/
+    
+        
+}
+
+#infoBox{
+    max-width:95%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+/*    background-color: #09BC8A;*/
+    font-size: 2vw;
+    color: #373737;
+    text-align: center;
+}
+
+#buttons{
+    max-width:95%;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+/*    display: none;*/
+/*    background-color: #2A2B2E; #4A4238*/
+}
+
+#middlebtn{
+    width:25%;
+    height:300px;
+    border: 1px solid blue;
+    margin-left:72%;
+    margin-right:2.5%;
+    margin-top: 10px;
+    color:#373737;
+    text-align: center;
+    float: left;
+}
+
+
+.button{
+    width: 45%;
+    height: 350px;
+    margin-top: 1%;
+    float: left;
+    margin-left: 3.5%;
+    background-color: #09BC8A;
+    font-size: 1vw;
+}
+
+.btnIcon{
+    max-width:70%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#prices{
+    width:99%;
+    height:290px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pBtn{
+    width:40%;
+    max-height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#contactContainer{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #09BC8A;
+    padding: 20px;
+}
+
+#sub
+{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#373737;
+    color: white;
+    font-weight: bolder;
+}
+
+input, select, textarea 
+{
+	font-size: 1em;
+    line-height: 1.5;
+    padding: 5px 10px;
+    border: 3px solid #09BC8A;
+    background: none repeat scroll;
+  	color:#373737;
+}
+
+#footer{
+    max-width:95%;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #373737;
+    text-align: center;
+}
+
+#viewFooter{
+    max-width:95%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40vh;
+    background-color: #373737;
+    text-align: center;
+}
+
+#login{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #09BC8A
+}
+
+/* Styling the scrollBar */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #373737; 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: white; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: white; 
+}
+
+#profileInfo{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+#profileimg{
+    float: left;
+    padding: 10px;
+}
+.cash{
+    float: right;
+}
+#cal{
+    width: 250px;
+    margin: 0 auto 0;
+}

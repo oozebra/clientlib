@@ -1,0 +1,46 @@
+<div id="headline">
+    <div id="headline2">
+        <h1>VIEW CHILDREN</h1>
+        <p>A full list of children's details<br /> are listed below</p>
+    </div>
+</div>
+        
+<div style="height:auto; color:#373737; margin-left:2.5%" ng-app="myApp" ng-controller="profileController">
+    <h2><a href="#services" style="color:#09BC8A"> <-- Back</a></h2>
+        <p style="font-size: 2vw;">FEATURED PROFILES</p>
+        
+    <div id="profileDiv">
+        <div ng-repeat="x in profiles | filter:search:strict">
+            <childern data="x"></childern>
+            </br>
+        </div>
+    </div>
+</div>    
+        
+    <div id="search">
+        <h2 style="color: #373737">FILTER RESULTS:</h2>
+        <p class="searchArea">
+            SEARCH AGE 
+        </p>
+            <input ng-model="search.age" class="searchAreaInput" placeholder="Enter Age Here">
+        </br>
+        <p class="searchArea">
+            SEARCH LOCATION 
+        </p>
+            <input ng-model="search.address" class="searchAreaInput" placeholder="Enter Country Here">
+        </br>
+        <p class="searchArea">
+            SEARCH ETHNICITY
+        </p>
+            <input ng-model="search.ethnicity" class="searchAreaInput" placeholder="Enter Ethnicity Here">
+        </br>
+        </br>
+    </div>
+
+<br />
+
+<div id="viewFooter">
+    <br />
+    <br />
+    <p>Commercials &amp; Co. © COPYRIGHT 2015</p>
+</div>

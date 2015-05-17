@@ -1,0 +1,33 @@
+<div id="headline">
+    <div id="headline2">
+        <h1>SERVICES LOGIN</h1>
+        <p>You must log in to view <br /> futher details about our Services</p>
+    </div>
+</div>
+<br />
+<br />
+<form style="color:#373737; margin-left:2.5%;" ng-submit="login()" name="loginForm" novalidate>
+    <div id="login" >
+        <h2 style="color: #373737">LOG INTO COMMERCIALS &amp; CO.</h2>
+        <label>Username:</label><br />
+        <input ng-model="credentials.username" id="uname" name="username" type="text" placeholder="Your User Name" required />
+        <span ng-show="loginForm.credentials.username.$dirty && loginForm.credentials.username.$invalid && loginForm.credentials.username.$error.required">Username is required</span>
+        </br>
+        </br>
+        <label>Password:</label><br />
+        <input ng-model="credentials.password" id="pass" name="password" type="password" placeholder="Your Password" required />
+        <span ng-show="loginForm.credentials.password.$dirty && loginForm.credentials.password.$invalid && loginForm.credentials.password.$error.required">Password is required</span>
+        </br>
+        </br>
+        <input type="submit" value="Login" id="sub" ng-disabled="loginForm.username.$dirty && loginForm.username.$invalid ||
+                                     loginForm.password.$dirty && loginForm.password.$invalid"/>
+</div>
+</form>
+
+<br />
+<br />
+
+<div id="footer">
+    <br />
+    <p>Commercials &amp; Co. © COPYRIGHT 2015</p>
+</div>

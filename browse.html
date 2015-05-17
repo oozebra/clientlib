@@ -1,0 +1,40 @@
+
+       <div id="headline">
+            <div id="headline2">
+                <h1>BROWSE COMMERCIALS</h1>
+                <p>List of Commercials <br /> needing children</p>
+            </div>
+        </div>
+        
+        <div id="about" ng-controller="browseController">
+            <h2><a href="#services" style="color:#09BC8A"> <-- Back</a></h2>
+            <p style="font-size: 2vw">Auditions & Open Commercial and Casting Notices</p>
+            <div class="navi2"><p class="naviText2"><b>NEWEST</b></p></div>
+                
+            <hr />
+                
+            <commercials ng-repeat="x in profiles" data="x"></commercials>
+        </div>
+            
+        <div id="adv2" ng-click="h.hideShow()">
+            <br />
+            <img id="pBtn" src="image/price.png" alt="this is the price icon"/>
+            <label style="color:white">
+                <p>
+                    <h3>PRICING TOTAL </h3> 
+                   
+                    <div id="cal" style="display:none">
+                        <b>Click commercial for estimate</b>
+                        <ch class="lab">Cost per Child: $</ch><label id="ch" class="cash"></label><br>
+                        <time class="lab">Cost of time: $</time><label id="time" class="cash"></label><br>
+                        <age class="lab">Cost of Children: $</age><label id="ren" class="cash"></label><br>
+                        <sign class="lab">Grand total: $</sign><label id="eq" class="cash"></label>
+                    </div>
+                </p>
+            <label>
+        </div>
+        <div id="footer">
+            <br />
+            <br />
+            <p>Commercials &amp; Co. © COPYRIGHT 2015</p>
+        </div>
